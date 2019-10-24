@@ -1,0 +1,103 @@
+/*Big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{width: 100%; padding: 0 2%;}
+    .main-nav{width: 80%; padding: 0;}
+    .row{ padding: 0 2%;}
+    .section-cities .box{
+        margin-left: 0px;
+        margin-right: 0px;}
+    .city-feature { font-size: 90%; }
+}
+
+/*small tablet to big tablet from 768 to 1023*/
+@media only screen and (max-width:1023px){
+    body{font-size: 18px;}
+    .main-nav{width: 80%; padding: 0 2%;}
+    .long-copy {
+            width: 80%;
+            margin-left: 10%;}
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }    
+    .works-steps { margin-bottom: 40px; }  
+    .works-step:last-of-type { margin-bottom: 60px; }
+    .city-feature { font-size: 90%; }
+    .row{padding: 0 2%; margin-left: 0; margin-right: 0;}
+    .plan-box {
+            width: 100%;
+            margin-left: 0%;}
+    .section-cities .box{
+        margin-left: 5px;
+        margin-right: 0px;}
+    .app-screen{width: 20%;} 
+    .plan-price { font-size: 250%;}    
+    .contact-form { width: 100%; }
+    .icon-small { 
+            width: 12px;
+            margin-right: 0px;}
+    .Play-store-btn{
+        width: 30%;
+        margin-left: 10px;
+        margin-bottom: 10px;}
+    .App-store-btn{
+        width: 34%;
+        margin-bottom: 10px;}
+       
+}
+  
+
+/*small phones to small tablets from 481 to 767*/
+@media only screen and (max-width:767px){
+    
+    .main-nav{display: none;}
+    .mobile-nav-icon{display: inline-block;}
+    .main-nav{
+        float: left;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: block;
+        padding: 5px 0;
+    }
+    
+    .sticky .main-nav{margin-top: 10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        color: black;
+        padding: 5px;
+    }
+    .sticky .mobile-nav-icon i{color: black;}
+    .sticky .mobile-nav-icon {margin-top: 0px;}
+    
+    
+    
+    h1{font-size: 150%;}
+    h2{font-size: 150%;}
+    .long-copy{width: 100%; margin-left: 0; text-align: center;}
+    .col{width: 100%; margin: 0 0 4% 0;}
+    .app-screen{width: 35%; }
+    .step-box:first-child{text-align: center;} 
+    .work-step { margin-bottom: 5%; margin-top: 0px;}  
+    .work-step:last-of-type{margin-bottom: 0;}
+    
+    .Play-store-btn{
+        width: 30%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    margin-top: 5px;}
+    .App-store-btn{
+        width: 34%;
+        margin-bottom: 10px;
+    margin-top: 5px;}
+}
+
+
+/*small phones from 0 to 480*/
+@media only screen and (max-width:480px){
+
+}
